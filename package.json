@@ -1,6 +1,6 @@
 {
   "name": "react-email-editor",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Unlayer's Email Editor Component for React.js",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "build": "nwb build-react-component",
-    "prepare": "npm run release",
+    "prepare": "npm run build",
     "clean": "nwb clean-module && nwb clean-demo",
     "start": "nwb serve-react-demo",
     "test": "nwb test-react",
